@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Header } from "@/app/components/Header";
+import { Footer } from "@/app/components/Footer";
 
 function CheckIcon() {
   return (
@@ -69,7 +71,9 @@ const packages = [
 
 export default function PackagesPage() {
   return (
-    <div className="flex flex-col bg-stone-100">
+    <>
+      <Header />
+      <div className="flex flex-col bg-stone-100">
       {/* Event Packages Section */}
       <section className="mx-auto max-w-6xl px-6 py-14">
           <h1 className="font-serif text-4xl font-bold tracking-tight text-slate-900 text-center">
@@ -181,5 +185,7 @@ export default function PackagesPage() {
         </div>
       </section>
     </div>
+      <Footer />
+    </>
   );
 }
