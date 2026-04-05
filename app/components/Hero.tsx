@@ -9,7 +9,7 @@ export function Hero() {
       {/* Hero Image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero-weekender.jpg"
+          src="/weekender-image.png"
           alt="The Weekender - Networking event with professionals in a modern venue"
           fill
           priority
@@ -29,7 +29,7 @@ export function Hero() {
               The Weekender
             </h1>
             <p className="text-xl font-semibold text-slate-100 sm:text-2xl">
-              April 18-20, 2026
+              April 17-19, 2026
             </p>
             <p className="text-lg text-slate-200 sm:text-xl">
               Network, connect, and build meaningful relationships with your peers
@@ -39,10 +39,10 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col gap-4 pt-8 sm:flex-row sm:justify-center">
             <Link
-              href="/packages"
+              href="/tickets"
               className="inline-flex items-center justify-center rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white shadow-lg transition-all hover:bg-blue-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
-              Explore Packages
+              Explore Tickets
             </Link>
             <Link
               href="/schedule"

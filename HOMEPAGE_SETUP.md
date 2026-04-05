@@ -6,7 +6,7 @@
 
 1. **Professional Navbar (Header Component)**
    - Sticky navigation bar with dark blue styling
-   - Event title "The Weekender" with date "April 18-20, 2026"
+   - Event title "The Weekender" with date "April 17-19, 2026"
    - Navigation links: Home, Packages, Schedule, Recommendations
    - Active page indicator
    - Mobile menu button (ready for future enhancement)

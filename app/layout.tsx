@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "The Weekender | UCSB LBA Event",
-  description: "UCSB LBA Weekender - April 18-20, 2026. Network with peers, explore exciting packages, and build meaningful connections.",
+  title: "UCSB Gauchella",
+  description: "UCSB LBA Weekender - April 17-19, 2026. Network with peers, explore exciting tickets, and build meaningful connections.",
 };
 
 export default function RootLayout({

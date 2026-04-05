@@ -23,7 +23,7 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-white">Event Details</h4>
             <ul className="mt-3 space-y-2 text-sm text-slate-300">
-              <li>📅 April 18-20, 2026</li>
+              <li>📅 April 17-19, 2026</li>
               <li>📍 UCSB Campus</li>
               <li>Network • Learn • Connect</li>
             </ul>
@@ -35,10 +35,10 @@ export function Footer() {
             <ul className="mt-3 space-y-2 text-sm">
               <li>
                 <a
-                  href="/packages"
+                  href="/tickets"
                   className="text-slate-300 transition-colors hover:text-white"
                 >
-                  Packages
+                  Tickets
                 </a>
               </li>
               <li>
