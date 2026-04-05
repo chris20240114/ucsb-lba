@@ -2,6 +2,7 @@
 
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
+import Link from "next/link";
 
 interface Event {
   time: string;
@@ -25,7 +26,7 @@ const scheduleDays: Day[] = [
       {
         time: "9:00 PM - 12:00 AM",
         title: "Banda Night",
-        location: "Location TBD",
+        location: "Isla Vista Area",
         description: "Start the weekend off right! Get ready to dance and have a great time!",
         requirements: ["🎟 Wristbands Required for Entry", "BYOB"],
       },
@@ -45,7 +46,7 @@ const scheduleDays: Day[] = [
       {
         time: "9:00 PM - 12:00 AM",
         title: "Gauchella Night Party",
-        location: "6707 DP",
+        location: "Isla Vista Area",
         requirements: ["🎟 Wristbands Required for Entry", "BYOB"],
       },
     ],
@@ -56,8 +57,8 @@ const scheduleDays: Day[] = [
     events: [
       {
         time: "12:00 PM - 3:00 PM",
-        title: "ULSA General Meeting",
-        location: "TBD",
+        title: "ULSA Meeting",
+        location: "Loma Pelona Center",
       },
     ],
   },
@@ -157,7 +158,8 @@ export default function Schedule() {
               What You Need to Know
             </h3>
             <p className="text-slate-600">
-              Make sure to bring your wristband, sign the waiver before events, and bring your energy! Questions? Reach out to us!
+              Make sure to bring your wristband, sign the waiver before events, and bring your energy! Questions? <Link href="https://www.instagram.com/ucsb_lba/" className="text-blue-600 hover:text-blue-800 font-semibold"
+              target="_blank">Reach out to us!</Link>
             </p>
           </div>
         </div>

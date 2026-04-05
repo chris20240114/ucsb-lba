@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/packages", label: "Packages" },
+  { href: "/tickets", label: "Tickets" },
   { href: "/schedule", label: "Schedule" },
   { href: "/recs", label: "Recommendations" },
 ];
@@ -23,7 +23,7 @@ export function Header() {
               The Weekender
             </h1>
             <span className="text-sm font-normal text-slate-300">
-              April 18-20, 2026
+              April 17-19, 2026
             </span>
           </div>
         </Link>
