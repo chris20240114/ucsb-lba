@@ -2,6 +2,8 @@
 
 A full-featured website built for the UCSB LBA Weekender event (April 17-19, 2026). This project uses modern web development frameworks with a focus on scalability, team collaboration, and responsive design.
 
+Live site: https://www.ucsb-lba-weekender.com/
+
 ## 🎯 Project Overview
 
 The UCSB LBA Weekender website serves as the central hub for event attendees and organizers. It provides information about packages, schedules, recommendations, and ticket purchasing for a large-scale university networking event.
